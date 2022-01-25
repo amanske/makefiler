@@ -1,0 +1,2 @@
+CODE_DIR=src
+LOGS_DIR=logs
