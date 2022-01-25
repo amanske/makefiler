@@ -27,7 +27,7 @@ run-app-default-config:
 	# ./app --config $(DEFAULT_CONFIG)
 
 run-app:
-	[[ -n "${CONFIG}" ]] || { echo "Config file not specified." 2>&1; exit 1; }
+	[ -n "${CONFIG}" ] || { echo "Config file not specified." 2>&1; exit 1; }
 	echo "Running app with --config=$(CONFIG)"
 
 get-most-recent-logfile:
